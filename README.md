@@ -1,4 +1,4 @@
-# Student-Enrollment-Management-System
+# 1. Student-Enrollment-Management-System
 Project Overview:  Build a Salesforce app to manage student enrollment, course assignments, and grade tracking. This project replicates real-world educational workflows and provides hands-on experience with core Salesforce functionalities like custom objects, automation, and reporting.
 
 Title - Student-Enrollment-Management-System
@@ -37,3 +37,55 @@ AppExchange Exploration
 • Review Salesforce AppExchange apps for education and enrollment management (like TargetX, Blackbaud Enrollment Management, etc.).
 • Analyze what features they offer: online application forms, document uploads, automated communications, real-time reporting.
 • Use insights from these solutions to design best practices and build enhanced Salesforce-native features.
+
+# 2. Student Internship Tracking System
+
+Student Internship Tracking System is a Salesforce-based solution designed to help educational institutions track and manage the internships that students undergo as part of their curriculum.
+This project will enable faculty to assign internships, students to submit progress reports, and administrators to monitor overall internship completion status with dashboards and reports.
+
+Project Overview
+
+Many educational institutions face difficulties in keeping track of student internship activities. Managing internship details through spreadsheets or manual methods leads to data loss, delays in progress reporting, and lack of visibility into student performance.
+
+This Salesforce application will centralize internship data, automate task reminders, and generate insights through dashboards. It will also serve as a proof of real-time application of Salesforce for education-related use cases.
+
+Problem Understanding & Industry Analysis
+
+Colleges and universities must ensure students complete mandatory internships before graduation, but there is no streamlined system to track internship allocations, progress, and outcomes.
+This results in miscommunication, incomplete records, and difficulty in verifying completion status.
+A centralized CRM-based solution will bring transparency, accountability, and efficiency into the internship process.
+
+Requirement Gathering
+
+• Create and manage internship records with company details, duration, and assigned students
+• Students must submit periodic progress updates and final reports
+• Faculty supervisors need to review and approve submitted progress
+• Automated email reminders should be sent for pending updates and approaching deadlines
+• Dashboards and reports should display the number of ongoing, completed, and pending internships
+
+Stakeholder Analysis
+
+• Students: Submit internship details, upload weekly reports, view progress
+• Faculty Supervisors: Review student progress, approve/reject submissions
+• Placement/Internship Coordinator: Assign internships, track completion status
+• System Administrator: Manage users, maintain data accuracy, troubleshoot issues
+• Institution Management: View analytics on internship performance and company tie-ups
+
+Business Process Mapping
+
+Internship assigned → Student submits periodic reports → Faculty reviews and approves → Final report submitted → Internship marked as completed → Completion certificate generated → Analytics shown in dashboard
+
+Possible exceptions:
+Student drops out of internship, company discontinues internship, delayed report submissions
+
+Industry-Specific Use Case Analysis
+
+• Colleges/Universities: Monitor student internships as part of their curriculum
+• Technical Institutes: Track industrial training programs
+• Business Schools: Evaluate student performance in corporate internships
+
+AppExchange Exploration
+
+• Explore Salesforce AppExchange apps related to education or project tracking (like TaskRay or Mavenlink)
+• Analyze features such as task assignment, progress tracking, document uploads, and reporting
+• Use best practices from these apps to design a simple and efficient Salesforce-native solution
